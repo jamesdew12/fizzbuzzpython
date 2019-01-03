@@ -1,9 +1,9 @@
-for number in range(1, 101):
+def fizzbuzz(number):
     if number%3==0 and number%5==0:
-        print "FizzBuzz"
+        return "FizzBuzz"
     elif number%3==0:
-        print "Fizz"
+        return "Fizz"
     elif number%5==0:
-        print "Buzz"
+        return "Buzz"
     else:
-        print(number)
+        return number
